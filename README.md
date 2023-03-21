@@ -33,3 +33,11 @@ test.json -> test.yaml
 `apachectl -t`
 
 `sudo systemctl restart apache2` or `sudo service apache2 restart`
+
+
+
+## From :)
+
+https://github.com/VictorNS69/swagger-ui-xss
+
+https://github.com/seanmarpo/swagger-xss-payloads#swagger-xss-payloads
