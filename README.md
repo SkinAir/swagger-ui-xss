@@ -15,3 +15,21 @@
 
 test.json -> test.yaml
 `?configUrl=https://xxx.xxx.xxx/test.json`
+
+### `apache CORS bug`
+`a2enmod headers`
+
+`vim /etc/apache2/apache2.conf`
+
+```
+<Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+        Header set Access-Control-Allow-Origin "*"
+</Directory
+```
+
+`apachectl -t`
+
+`sudo systemctl restart apache2` or `sudo service apache2 restart`
