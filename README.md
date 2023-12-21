@@ -27,7 +27,7 @@ test.json -> test.yaml
         AllowOverride None
         Require all granted
         Header set Access-Control-Allow-Origin "*"
-</Directory
+</Directory>
 ```
 
 `apachectl -t`
