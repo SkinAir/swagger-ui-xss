@@ -16,7 +16,7 @@
 test.json -> test.yaml
 `?configUrl=https://xxx.xxx.xxx/test.json`
 
-### `apache CORS bug`
+### `apache CORS bug（NO bug）`
 `a2enmod headers`
 
 `vim /etc/apache2/apache2.conf`
